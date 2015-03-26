@@ -1,11 +1,12 @@
-<div class="jumbotron" ng-app="category">
+<div class="jumbotron category" ng-app="category">
   <header>
     <h1>Post Overflow: Learning Angular</h1>
-  </header>
-  <section ng-controller='CategoryController'>
-    Display the list of Categories
     <ul>
-      <li ng-repeat="cat in categoryData.cats">{{cat.name}}</li>
+      <li><a href="#create">Create</a></li>
+      <li><a href="#list">List</a></li>
+      <li><a href="#delete">Delete</a></li>
     </ul>
-  </section>
+  </header>
+  <div ng-view>
+  </div>
 </div>

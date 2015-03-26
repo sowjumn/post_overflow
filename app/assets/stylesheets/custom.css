@@ -13,3 +13,15 @@
 .jumbotron .main-container {
   padding: 10px;
 }
+
+.category header ul{
+  height: 40px;
+  background-color: #276EB3;
+}
+
+.category header ul li {
+  padding: 10px 80px 10px 10px;
+  list-style: none;
+  float: left;
+  width: 33%;
+}

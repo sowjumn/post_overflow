@@ -4,11 +4,13 @@
     var myServiceInstance = {};
     var categoriesUrl = '/categories.json'
     myServiceInstance.cats = []; 
+
     $http({
       method: 'get',
       url:  categoriesUrl,           
       headers: { 'Content-Type': 'application/json' }
       }).success(function(data) {
+        console.log(data);
         myServiceInstance.cats = data;
       });
     
