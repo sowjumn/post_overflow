@@ -36,6 +36,13 @@
     }
   }]);
 
+  app.directive('mySubtracter', function() {
+    return {
+      restrict: 'E',
+      template: '<p>Subtracting {{firstNumber}} with {{secondNumber}} results in {{subtract()}}</p>'
+    };
+  });
+
   app.controller('AlternateCalculateController',function() {
     this.firstNumber = 1;
     this.secondNumber = 1;
