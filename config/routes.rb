@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'welcome/exercise_3' => 'welcome#exercise_3'
   get 'welcome/exercise_4' => 'welcome#exercise_4'
   get 'welcome/exercise_5' => 'welcome#exercise_5'
+  get 'welcome/exercise_6' => 'welcome#exercise_6'
   get 'welcome/services_intro' => 'welcome#services_intro'
   get 'welcome/solution_1' => 'welcome#solution_1'
 
